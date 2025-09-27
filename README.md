@@ -3,7 +3,7 @@
 **Overview**
 
 QAPIShield is a Zero-Trust API Security framework designed to secure financial and healthcare APIs against insider threats, API misuse, and third-party risks.
-This prototype was developed for a hackathon and demonstrates real-time API request validation, hybrid anomaly detection, risk scoring, and self-healing.
+This prototype was developed for a hackathon and demonstrates real-time API request validation, hybrid anomaly detection, shadow API detection, risk scoring, and self-healing.
 
 The system enforces multi-layered security checks:
 - Post-Quantum Cryptography (Falcon-512) for signature verification.
@@ -51,7 +51,7 @@ The system enforces multi-layered security checks:
 **System Architecture**
 
 Frontend:
-- /client → API Request Simulation page.
+- /client → API Request page.
 - /server → Monitoring Dashboard.
 
 Backend:
